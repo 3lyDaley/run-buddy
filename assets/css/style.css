@@ -1,43 +1,126 @@
-/* REMOVING DEFAULT BROWSER STYLING*/
+/* REMOVING DEFAULT BROWSER STYLING */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+/* SETTING DEFAULT FONT COLOR/FAMILY */
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
-/*HEADER POSITION/ BACKGROUND COLOR*/
+/* BEGIN HEADER */
+/* HEADER POSITION/ BACKGROUND COLOR */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
-/*HEADER FONT STYLE/COLOR*/
+/* HEADER FONT STYLE/COLOR */
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    /*ADDING SPACE FOR NAV LINKS IN HEADER BLOCK*/
+    /* ADDING SPACE FOR NAV LINKS IN HEADER BLOCK */
     display: inline;
 }
-/*REMOVING BLUE UNDERLINE OF <a> /ADDING COLOR*/
+/* REMOVING BLUE UNDERLINE OF <a> /ADDING COLOR */
 header a {
     text-decoration: none;
     color: #fce138;
 }
-/*MOVING NAV LINKS TO THE RIGHT OF THE PAGE*/
+/* MOVING NAV LINKS TO THE RIGHT OF THE PAGE */
 header nav {
     float: right;
     margin: 7px 0;
 }
-/*CHANGING NAV <li> ELEM FROM BLOCK TO INLINE*/
+/* CHANGING NAV <li> ELEM FROM BLOCK TO INLINE */
 header nav ul li {
     display: inline;
 }
-/*FURTHER STYLING FONT OF NAV LINKS*/
+/* FURTHER STYLING FONT OF NAV LINKS */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
+/* END HEADER */
+
+/* FOOTER STYLING */
+/* FOOTER BGRND COLOR & POSITION */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+/*ALLOW SPACE FOR RIGHT HAND <div> INLINE ELEMENT*/
+/*FONT COLOR/ LOCATION FOR h2 ELEMENT*/
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+/*STYLE FOR <div> CONTAINER*/
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #024e76;
+}
+/* END FOOTER */
+
+/* BEGIN HERO STYLE */
+.hero {
+    background-image: url(../images/hero-image.jpeg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+/* END HERO STYLE */
+
+/* BEGIN HERO-FORM */
+.hero-form {
+    border: solid 3px #024e76; 
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-form label {
+    margin: 0px 5px;
+}
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* END HERO-FORM */
+/* BEGIN SECTION STYLE */
+section {
+    padding: 60px;
+}
+/* END SECTION STYLE */
