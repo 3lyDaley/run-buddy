@@ -72,14 +72,13 @@ footer a {
 }
 /* END FOOTER */
 
-/* BEGIN HERO STYLE */
+/* homepage hero */
 .hero {
     background-image: url(../images/hero-image.jpeg);
     height: 600px;
     background-size: cover;
     background-position: center;
 }
-/* END HERO STYLE */
 
 /* BEGIN HERO-FORM */
 .hero-form {
