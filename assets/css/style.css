@@ -80,6 +80,21 @@ footer a {
     background-position: center;
 }
 
+/* BEGIN HERO-TEXT */
+.hero-text {
+    float: center;
+    text-align: right;
+    width: 500px;
+    padding: 50px 0 650px 0;
+}
+.hero-text h1 {
+    color: #fce138;
+    font-style: italic;
+    font-size: 55px;
+}
+.hero-text p {
+    color: white;
+}
 /* BEGIN HERO-FORM */
 .hero-form {
     border: solid 3px #024e76; 
