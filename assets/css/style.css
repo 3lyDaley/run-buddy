@@ -14,6 +14,9 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 /* HEADER FONT STYLE/COLOR */
 header h1 {
@@ -21,8 +24,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    /* ADDING SPACE FOR NAV LINKS IN HEADER BLOCK */
-    display: inline;
+   
 }
 /* REMOVING BLUE UNDERLINE OF <a> /ADDING COLOR */
 header a {
@@ -31,7 +33,6 @@ header a {
 }
 /* MOVING NAV LINKS TO THE RIGHT OF THE PAGE */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 /* CHANGING NAV <li> ELEM FROM BLOCK TO INLINE */
