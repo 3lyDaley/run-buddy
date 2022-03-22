@@ -263,7 +263,7 @@ section {
 }
 /* END WHAT WE DO */
 
-/* BEGIn WHAT YOU DO */
+/* WHAT YOU DO */
 .steps {
     background: var(--primary-color)
 }
@@ -282,7 +282,7 @@ section {
 .step h3 {
     color: var(--secondary-color);
     font-size: 46px;
-    flex: 1 30;
+    flex: 1 30%;
 }
 .step-info {
     flex: 2 70%;
